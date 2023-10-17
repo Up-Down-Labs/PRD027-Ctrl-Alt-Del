@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Bites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="cad logo.png"  width="30" height= "30" alt="Logo">
+                <a href="/homepage.html"style="font-family:freestyle script;font-size:40px;font-weight:lighter;">Budget Bites</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/homepage.html">Home</a></li>
+                <li><a href="/categ.html">Explore</a></li>
+                <li><a href="/upload.html">Upload</a></li>
+                <li><a href="/aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Submit Recipe</h1>
+    <form action="/upload" method="POST" >
+        <label for="title">Recipe Title:</label>
+        <input type="text" id="title" name="title" ><br>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="4" ></textarea><br>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="8" ></textarea><br>
+
+        <label for="image">Recipe Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" ><br>
+
+        <button class="button" type="submit" >Submit Recipe</button>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
