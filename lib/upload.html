@@ -22,7 +22,7 @@
         </nav>
     </header>
     <h1>Submit Recipe</h1>
-    <form action="/upload" method="POST" >
+    <form action="/upload.html" method="POST" >
         <label for="title">Recipe Title:</label>
         <input type="text" id="title" name="title" ><br>
 
@@ -35,14 +35,8 @@
         <label for="image">Recipe Image:</label>
         <input type="file" id="image" name="image" accept="image/*" ><br>
 
-        <button class="button" type="submit" >Submit Recipe</button>
+        <button class="button" type="submit"  onclick="alert('Recipe uploaded Sucessfully')">Submit Recipe</button>
     </form>
-
-
-
-
-
-
 
 </body>
 </html>
